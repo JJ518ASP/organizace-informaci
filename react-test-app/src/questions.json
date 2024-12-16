@@ -346,7 +346,7 @@
       }
     },
     {
-      "question": "Co je 'faceta' v rámci systému indexace?",
+      "question": "Co je 'fazeta' v rámci systému indexace?",
       "options": {
         "a": "Kategorie, která umožňuje rozdělení deskriptorů podle konkrétního hlediska.",
         "b": "Hierarchický termín použitý pouze u nedeskriptorů.",
@@ -404,7 +404,306 @@
         "c": "Hlavní kategorie jsou stále důležité.",
         "d": "Nedeskriptory nejsou primárním cílem tematických polí."
       }
+    },
+    {
+      "question": "Co je hlavním cílem obsahové analýzy?",
+      "options": {
+        "a": "Popsat obsah dokumentu pomocí deskriptorů.",
+        "b": "Identifikovat hlavní i vedlejší témata dokumentu.",
+        "c": "Určit obsah dokumentu na základě jeho struktury a klíčových částí.",
+        "d": "Zajistit správné přiřazení identifikátorů."
+        },
+      "correct_answer": "c",
+      "explanations": {
+        "a": "Popsání obsahu deskriptory je až dalším krokem procesu.",
+        "b": "Identifikace témat je součástí analýzy, ale není jejím hlavním cílem.",
+        "d": "Identifikátory se řeší později při výběru termínů selekčního jazyka."
+        }
+    },
+    {
+      "question": "Co jsou lexikální jednotky v tezauru?",
+      "options": {
+        "a": "Termíny, které lze použít při indexaci dokumentů.",
+        "b": "Všechny termíny zahrnuté do tezauru, včetně deskriptorů a nedeskriptorů.",
+        "c": "Synonyma a antonyma deskriptorů.",
+        "d": "Termíny vyjadřující hierarchické vztahy mezi dokumenty."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Lexikální jednotky zahrnují více než jen indexační termíny.",
+        "c": "Synonyma a antonyma jsou pouze částí nedeskriptorů.",
+        "d": "Hierarchické vztahy jsou určovány strukturou tezauru, nikoli termíny samotnými."
+      }
+    },
+    {
+      "question": "Jak se označuje hierarchický vztah mezi deskriptorem a nadřazeným termínem?",
+      "options": {
+        "a": "Vztah ekvivalence.",
+        "b": "Vztah polyhierarchie.",
+        "c": "Vztah asociace.",
+        "d": "Vztah nadřazenosti a podřazenosti (nd/pd)."
+      },
+      "correct_answer": "d",
+      "explanations": {
+        "a": "Ekvivalence se vztahuje k synonymům, ne hierarchii.",
+        "b": "Polyhierarchie označuje vztah k více nadřazeným termínům.",
+        "c": "Asociace propojuje pojmově blízké termíny, které nejsou hierarchicky spojeny."
+      }
+    },
+    {
+      "question": "Kdy se v tezauru používá vztah ekvivalence?",
+      "options": {
+        "a": "Pro spojení synonymních deskriptorů.",
+        "b": "Pro propojení deskriptorů s nedeskriptory.",
+        "c": "Pro určení vztahu mezi obecnými a specifickými termíny.",
+        "d": "Pro vyjádření vztahu mezi dvěma lexikálními jednotkami v jedné hierarchii."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Synonyma mohou být propojena, ale ekvivalence odkazuje primárně na nedeskriptory.",
+        "c": "Vztah mezi obecnými a specifickými termíny je hierarchie.",
+        "d": "Tento vztah není součástí ekvivalenční struktury."
+      }
+    },
+    {
+      "question": "Co vyjadřuje pojem 'topterm' v kontextu tezauru?",
+      "options": {
+        "a": "Termín na nejnižší úrovni hierarchie.",
+        "b": "Termín, který propojuje různé mikrotezaury.",
+        "c": "Termín na nejvyšší úrovni hierarchie.",
+        "d": "Termín, který se používá pouze ve specifických případech."
+      },
+      "correct_answer": "c",
+      "explanations": {
+        "a": "Topterm je nejvyšší, nikoli nejnižší úroveň.",
+        "b": "Topterm neslouží k propojení mikrotezaurů, ale označuje obecný pojem.",
+        "d": "Použití toptermu není omezeno na specifické případy, ale na obecné dokumenty."
+      }
+    },
+    {
+      "question": "Co znamená pojem 'mikrotezaurus' v kontextu tezauru?",
+      "options": {
+        "a": "Seznam všech deskriptorů v určitém tezauru.",
+        "b": "Část tezauru tematicky zaměřená na konkrétní oblast.",
+        "c": "Hierarchický strom zahrnující všechny vztahy deskriptorů.",
+        "d": "Soubor synonym použitých pro indexaci dokumentů."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Mikrotezaurus není seznam, ale tematická část tezauru.",
+        "c": "Hierarchický strom může obsahovat více mikrotezaurů.",
+        "d": "Synonyma jsou zajišťována vztahem ekvivalence, nikoli mikrotezaury."
+      }
+    },
+    {
+      "question": "Jaká pravidla se vztahují na použití deskriptoru 'dějiny'?",
+      "options": {
+        "a": "Používá se pouze u dokumentů zaměřených na konkrétní událost.",
+        "b": "Musí být vždy doplněn časovým údajem.",
+        "c": "Používá se pro všechny dokumenty s historickým hlediskem.",
+        "d": "Nemůže být použit jako samostatný deskriptor."
+      },
+      "correct_answer": "c",
+      "explanations": {
+        "a": "Deskriptor 'dějiny' lze použít i pro obecné historické přehledy.",
+        "b": "Časový údaj není vždy povinný, záleží na obsahu dokumentu.",
+        "d": "Může být použit samostatně, pokud to vyžaduje obsah dokumentu."
+      }
+    },
+    {
+      "question": "Co je základním principem postkoordinace v tezauru?",
+      "options": {
+        "a": "Použití složeného termínu k popisu dokumentu.",
+        "b": "Rozklad složeného termínu na jednotlivé části.",
+        "c": "Spojení dvou deskriptorů do jednoho termínu.",
+        "d": "Použití synonymních deskriptorů."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Použití složeného termínu odpovídá prekoordinaci, nikoli postkoordinaci.",
+        "c": "Postkoordinace se zaměřuje na rozklad, nikoli spojování.",
+        "d": "Synonymní deskriptory spadají pod vztah ekvivalence."
+      }
+    },
+    {
+      "question": "Co je to vztah asociace v tezauru?",
+      "options": {
+        "a": "Vztah mezi deskriptory a nedeskriptory.",
+        "b": "Vztah mezi pojmově blízkými, ale hierarchicky nespojenými termíny.",
+        "c": "Vztah nadřazenosti a podřazenosti.",
+        "d": "Vztah mezi dvěma synonymními deskriptory."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Vztah mezi deskriptory a nedeskriptory odpovídá vztahu ekvivalence.",
+        "c": "Nadřazenost a podřazenost patří k hierarchickým vztahům.",
+        "d": "Synonyma jsou propojena vztahem ekvivalence, nikoli asociace."
+      }
+    },
+    {
+      "question": "Jaký je účel indexačních poznámek u deskriptorů?",
+      "options": {
+        "a": "Upřesňují význam deskriptoru a jeho správné použití při indexaci.",
+        "b": "Zajišťují propojení mezi mikrotezaury.",
+        "c": "Určují nadřazené a podřazené vztahy deskriptoru.",
+        "d": "Slouží k přiřazení synonym a antonym k deskriptoru."
+      },
+      "correct_answer": "a",
+      "explanations": {
+        "b": "Propojení mikrotezaurů je řešeno vztahem asociace, nikoli indexačními poznámkami.",
+        "c": "Nadřazenost a podřazenost patří do struktury tezauru, ne do indexačních poznámek.",
+        "d": "Synonyma a antonyma jsou propojena vztahem ekvivalence."
+      }
+    },
+    {
+      "question": "Co označuje termín 'prekoordinace' v tezauru?",
+      "options": {
+        "a": "Použití složeného termínu jako jednoho deskriptoru.",
+        "b": "Rozklad složeného termínu na samostatné části.",
+        "c": "Propojení deskriptorů v různých mikrotezaurech.",
+        "d": "Hierarchické spojení mezi nadřazeným a podřazeným termínem."
+      },
+      "correct_answer": "a",
+      "explanations": {
+        "b": "Rozklad termínu odpovídá postkoordinaci, nikoli prekoordinaci.",
+        "c": "Propojení mezi mikrotezaury je zajištěno vztahem asociace.",
+        "d": "Hierarchická spojení jsou řešena vztahy nadřazenosti a podřazenosti."
+      }
+    },
+    {
+      "question": "Kdy by měl být použit deskriptor s relátorem?",
+      "options": {
+        "a": "Pokud termín může mít více významů v různých kontextech.",
+        "b": "Pokud je termín synonymem jiného deskriptoru.",
+        "c": "Pokud je termín součástí tematického pole.",
+        "d": "Pokud je termín používán pouze pro historické dokumenty."
+      },
+      "correct_answer": "a",
+      "explanations": {
+        "b": "Synonyma jsou propojena vztahem ekvivalence, relátor není potřeba.",
+        "c": "Tematická pole nejsou spojena s používáním relátorů.",
+        "d": "Relátory se používají i mimo historické kontexty."
+      }
+    },
+    {
+      "question": "Jaký je rozdíl mezi nedeskriptorem a deskriptorem?",
+      "options": {
+        "a": "Deskriptor je synonymem nedeskriptoru.",
+        "b": "Nedeskriptor se používá pro vyhledávání, ale ne pro indexaci.",
+        "c": "Nedeskriptor označuje obecný pojem, deskriptor konkrétní.",
+        "d": "Deskriptor a nedeskriptor se používají vždy společně."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Deskriptor je hlavním termínem, nedeskriptor na něj odkazuje.",
+        "c": "Nedeskriptory mohou být specifické, pokud odkazují na konkrétní deskriptor.",
+        "d": "Použití deskriptoru není podmíněno současným použitím nedeskriptoru."
+      }
+    },
+    {
+      "question": "Který z následujících deskriptorů by byl příkladem tematického pole?",
+      "options": {
+        "a": "Církevní život.",
+        "b": "Spiritualita a náboženství.",
+        "c": "Bohoslužebné reálie.",
+        "d": "Teologické disciplíny."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Církevní život je mikrotezaurus, nikoli tematické pole.",
+        "c": "Bohoslužebné reálie jsou konkrétním deskriptorem.",
+        "d": "Teologické disciplíny spadají pod mikrotezaurus, ne tematické pole."
+      }
+    },
+    {
+      "question": "Jaký je hlavní účel identifikátorů v tezauru?",
+      "options": {
+        "a": "Zajišťují synonymní vazby mezi deskriptory.",
+        "b": "Slouží k označení konkrétních osob, míst nebo organizací.",
+        "c": "Vyjadřují hierarchické vztahy mezi deskriptory.",
+        "d": "Představují základní strukturu mikrotezaurů."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Synonymní vazby jsou zajišťovány vztahem ekvivalence.",
+        "c": "Hierarchické vztahy jsou vyjádřeny vztahy nadřazenosti a podřazenosti.",
+        "d": "Mikrotezaury nejsou přímo spojeny s identifikátory, ale s tematickými oblastmi."
+      }
+    },
+    {
+      "question": "Jaké pravidlo určuje úplnost indexace?",
+      "options": {
+        "a": "Musí být popsána pouze hlavní témata dokumentu.",
+        "b": "Musí být popsána všechna relevantní témata dokumentu.",
+        "c": "Je nutné vybrat co nejméně deskriptorů.",
+        "d": "Indexace je úplná, pokud jsou pokryta alespoň dvě témata."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Kromě hlavních témat je třeba popsat i relevantní vedlejší témata.",
+        "c": "Není vhodné záměrně redukovat počet deskriptorů na minimum.",
+        "d": "Počet témat není určen striktně dvěma, záleží na obsahu dokumentu."
+      }
+    },
+    {
+      "question": "Co je nutné ověřit při výběru termínů selekčního jazyka?",
+      "options": {
+        "a": "Správnost gramatické struktury termínů.",
+        "b": "Dostupnost synonym k termínům.",
+        "c": "Význam a relevanci termínů vzhledem k obsahu dokumentu.",
+        "d": "Přítomnost termínu ve všech mikrotezaurech."
+      },
+      "correct_answer": "c",
+      "explanations": {
+        "a": "Gramatická struktura není prioritou při výběru termínů.",
+        "b": "Synonyma nejsou vždy klíčová, záleží na vztazích mezi termíny.",
+        "d": "Termín nemusí být přítomen ve všech mikrotezaurech, ale měl by být relevantní."
+      }
+    },
+    {
+      "question": "Jaký význam má pravidlo specifičnosti indexace?",
+      "options": {
+        "a": "Je nutné použít vždy co nejširší termín.",
+        "b": "Používají se nejpřesnější deskriptory odpovídající obsahu dokumentu.",
+        "c": "Používají se pouze termíny z hlavního tematického pole.",
+        "d": "Je vhodné záměrně kombinovat obecné a specifické termíny."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Širší termíny se používají pouze v případě absence přesných deskriptorů.",
+        "c": "Není omezení na hlavní tematické pole, rozhoduje obsah dokumentu.",
+        "d": "Obecné a specifické termíny se kombinují pouze při rovnoměrném zastoupení témat."
+      }
+    },
+    {
+      "question": "Kdy je vhodné použít polyhierarchii v tezauru?",
+      "options": {
+        "a": "Pokud je deskriptor relevantní pro více nadřazených termínů.",
+        "b": "Pokud deskriptor nemá synonymní nedeskriptor.",
+        "c": "Pokud deskriptor nelze zařadit do žádného tematického pole.",
+        "d": "Pokud je deskriptor určen pouze pro historické dokumenty."
+      },
+      "correct_answer": "a",
+      "explanations": {
+        "b": "Synonymní nedeskriptor neovlivňuje hierarchii deskriptorů.",
+        "c": "Tematická pole nejsou podmínkou pro použití polyhierarchie.",
+        "d": "Historické dokumenty nemají přímou vazbu na polyhierarchii."
+      }
+    },
+    {
+      "question": "Co je to selekční obraz dokumentu?",
+      "options": {
+        "a": "Souhrn všech informací z dokumentu.",
+        "b": "Výběr termínů selekčního jazyka popisující obsah dokumentu.",
+        "c": "Vizualizace hierarchie deskriptorů.",
+        "d": "Přehled všech použitých nedeskriptorů."
+      },
+      "correct_answer": "b",
+      "explanations": {
+        "a": "Selekční obraz dokumentu obsahuje pouze termíny, nikoli všechny informace.",
+        "c": "Hierarchie deskriptorů je samostatná struktura, nikoli selekční obraz.",
+        "d": "Nedeskriptory jsou součástí vztahů, ne přímo selekčního obrazu."
+      }
     }
   ]
 }
-
