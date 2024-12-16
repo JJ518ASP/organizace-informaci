@@ -13,6 +13,7 @@ const App = () => {
       ...selectedAnswers,
       [questionIndex]: answer
     });
+    setShowExplanations(true);
   };
 
   // Handle navigation to the next or previous question
@@ -29,9 +30,6 @@ const App = () => {
   };
 
   // Handle form submission and display explanations
-  const handleSubmit = () => {
-    setShowExplanations(true);
-  };
 
   // Get the current question data
   const currentQuestion = questionsData.questions[currentQuestionIndex];
@@ -65,7 +63,7 @@ const App = () => {
           <div>
             <p>
               <strong>
-                Explanation:{" "}
+                Vysvětlení:{" "}
                 {
                   currentQuestion.explanations[selectedAnswers[currentQuestionIndex]] ||
                   "Správně, velmi KISK odpověď"
@@ -79,15 +77,12 @@ const App = () => {
       {/* Navigation buttons */}
       <div>
         <button onClick={handlePrevious} disabled={currentQuestionIndex === 0}>
-          Previous
+          Předchozí
         </button>
         <button onClick={handleNext} disabled={currentQuestionIndex === questionsData.questions.length - 1}>
-          Next
+          Další
         </button>
       </div>
-
-      {/* Submit button to reveal explanations */}
-      <button onClick={handleSubmit}>Submit</button>
     </div>
   );
 };
