@@ -704,6 +704,576 @@
         "c": "Hierarchie deskriptorů je samostatná struktura, nikoli selekční obraz.",
         "d": "Nedeskriptory jsou součástí vztahů, ne přímo selekčního obrazu."
       }
+    },
+    {
+      "question": "Jaký je hlavní účel relátoru v tezauru?",
+      "options": {
+          "a": "Slouží k propojení synonymních termínů.",
+          "b": "Upřesňuje význam homonymních nebo polysémních termínů.",
+          "c": "Označuje hierarchické vztahy mezi deskriptory.",
+           "d": "Používá se pro označení nadřazených deskriptorů."
+      },
+      "correct_answer": "b",
+      "explanations": {
+          "a": "Propojení synonym zajišťuje vztah ekvivalence, ne relátor.",
+           "c": "Hierarchické vztahy se označují pomocí 'nd' a 'pd'.",
+          "d": "Relátory nemají funkci označovat nadřazené deskriptory."
+      }
+  },
+   {
+      "question": "Co je to indexační poznámka a k čemu slouží?",
+      "options": {
+          "a": "Poznámka o rozsahu deskriptoru.",
+          "b": "Poznámka specifikující význam nadřazeného deskriptoru.",
+           "c": "Poznámka určující přesný způsob použití deskriptoru pro indexaci.",
+          "d": "Poznámka obsahující návrh na nový deskriptor."
+      },
+      "correct_answer": "c",
+       "explanations": {
+          "a": "Poznámka o rozsahu vymezuje význam deskriptoru, ale ne jeho použití.",
+           "b": "Indexační poznámka nespecifikuje význam nadřazeného deskriptoru.",
+          "d": "Návrh na nový deskriptor se označuje jako kandidát, ne jako indexační poznámka."
+       }
+  },
+  {
+      "question": "Jaké tři základní typy vztahů se nacházejí mezi lexikálními jednotkami v tezauru?",
+      "options": {
+          "a": "Synonymie, antonymie, homonymie.",
+          "b": "Hierarchie, asociace, ekvivalence.",
+          "c": "Nadřazenost, podřazenost, rovnocennost.",
+           "d": "Obecnost, specifičnost, příbuznost."
+      },
+      "correct_answer": "b",
+      "explanations": {
+         "a": "Synonymie a homonymie se řeší jinými nástroji, než jsou vztahy v tezauru.",
+          "c": "Nadřazenost a podřazenost jsou formou hierarchického vztahu.",
+           "d": "Obecnost, specifičnost a příbuznost popisují vlastnosti, ne vztahy."
+      }
+  },
+  {
+      "question": "Co je to 'topterm' v tezauru?",
+      "options": {
+          "a": "Nejvíce specifický termín v hierarchii.",
+           "b": "Termín na nejvyšší hierarchické úrovni.",
+          "c": "Termín s největším počtem asociací.",
+          "d": "Termín s nejširším významem."
+      },
+      "correct_answer": "b",
+       "explanations": {
+           "a": "Topterm je na nejvyšší úrovni, ne na nejnižší.",
+           "c": "Asociace nesouvisí s pojmem topterm.",
+          "d": "Topterm je obvykle velmi obecný, ale nemusí mít nejširší význam."
+       }
+  },
+  {
+      "question": "Kdy by měl být pro indexaci použit deskriptor na nejvyšší hierarchické úrovni (topterm)?",
+       "options": {
+          "a": "Vždy, když je to možné.",
+          "b": "Pokud neexistuje specifičtější deskriptor.",
+          "c": "Pouze pro obecná díla o dané oblasti.",
+           "d": "Nikdy, vždy je třeba vybrat specifičtější termín."
+      },
+      "correct_answer": "b",
+      "explanations": {
+         "a": "Používání toptermu vždy není vhodné, upřednostňují se specifičtější deskriptory.",
+          "c": "Topterm se použije, i když není dokument obecný, ale specifičtější termín neexistuje.",
+           "d": "Topterm je potřeba použít v případě, že specifičtější deskriptor není k dispozici."
+       }
+  },
+  {
+      "question": "Co je to polyhierarchie?",
+      "options": {
+          "a": "Vztah mezi dvěma synonymními deskriptory.",
+          "b": "Vztah mezi obecným a specifickým deskriptorem.",
+          "c": "Vztah, kdy má deskriptor více než jeden nadřazený deskriptor.",
+          "d": "Vztah mezi deskriptory v různých mikrotezaurech."
+       },
+      "correct_answer": "c",
+       "explanations": {
+          "a": "Synonyma jsou spojena vztahem ekvivalence, ne polyhierarchií.",
+          "b": "Hierarchie má vztah nadřazenosti a podřazenosti, ne polyhierarchie.",
+           "d": "Mikrotezaury jsou spojeny vztahem asociace, ne polyhierarchie."
+       }
+  },
+  {
+     "question": "Jaký je rozdíl mezi vztahem asociace a vztahem hierarchie?",
+     "options": {
+         "a": "Vztah asociace je mezi synonymy, hierarchie mezi obecným a specifickým termínem.",
+          "b": "Vztah asociace propojuje pojmově blízké termíny, hierarchie vytváří vztah nadřazenosti a podřazenosti.",
+          "c": "Vztah asociace je mezi deskriptorem a nedeskriptorem, hierarchie mezi deskriptory.",
+          "d": "Vztah asociace slouží k rozdělení termínů, hierarchie k jejich spojení."
+      },
+     "correct_answer": "b",
+      "explanations": {
+          "a": "Synonyma jsou spojena vztahem ekvivalence, ne asociace.",
+          "c": "Vztah mezi deskriptorem a nedeskriptorem je ekvivalence.",
+          "d": "Asociace a hierarchie slouží k propojení termínů, ne k jejich rozdělení."
+      }
+  },
+   {
+      "question": "K čemu slouží mikrotezaury?",
+     "options": {
+         "a": "K vytvoření hierarchických vztahů mezi deskriptory.",
+          "b": "K rozdělení tezauru do tematicky nebo oborově vymezených částí.",
+          "c": "K definování vztahů ekvivalence mezi termíny.",
+          "d": "K propojení deskriptorů s identifikátory."
+      },
+     "correct_answer": "b",
+       "explanations": {
+          "a": "Hierarchické vztahy se tvoří v rámci celé struktury tezauru, ne v mikrotezaurech.",
+          "c": "Vztah ekvivalence je mezi deskriptorem a nedeskriptorem, mikrotezaury mají jiný účel.",
+          "d": "Identifikátory jsou samostatnou množinou mimo mikrotezaury."
+      }
+  },
+  {
+      "question": "Jaký je vztah mezi mikrotezaury a tematickými poli?",
+      "options": {
+          "a": "Mikrotezaury jsou nadřazeny tematickým polím.",
+          "b": "Tematická pole jsou nadřazeny mikrotezaurům a zahrnují několik mikrotezaurů.",
+          "c": "Mikrotezaury a tematická pole jsou synonyma.",
+           "d": "Tematická pole se používají pro indexaci, mikrotezaury ne."
+       },
+      "correct_answer": "b",
+       "explanations": {
+         "a": "Tematická pole jsou širší a zahrnují několik mikrotezaurů, proto jsou nadřazené.",
+           "c": "Mikrotezaury a tematická pole mají odlišné funkce.",
+          "d": "Mikrotezaury se nepoužívají přímo pro indexaci, ale tematická pole také ne."
+       }
+  },
+   {
+      "question": "Co jsou to identifikátory v kontextu tezauru?",
+      "options": {
+          "a": "Synonyma k deskriptorům.",
+          "b": "Obecné termíny pro kategorizaci.",
+           "c": "Vlastní jména osob, organizací, míst a dalších jedinečných entit.",
+          "d": "Termíny pro označení časových období."
+      },
+      "correct_answer": "c",
+      "explanations": {
+          "a": "Synonyma jsou řešena vztahem ekvivalence.",
+          "b": "Obecné termíny jsou deskriptory, ne identifikátory.",
+          "d": "Časová období se řeší pomocí deskriptorů z mikrotezauru dějin."
+      }
+  },
+  {
+       "question": "Proč se identifikátory obvykle nezařazují přímo do tezauru?",
+      "options": {
+          "a": "Protože nejsou důležité pro vyhledávání.",
+           "b": "Z důvodu jejich velkého počtu, obtížného vymezení rozsahu a správy.",
+           "c": "Protože je nelze jednoznačně definovat.",
+          "d": "Protože se používají pouze v kombinaci s deskriptory."
+       },
+       "correct_answer": "b",
+      "explanations": {
+         "a": "Identifikátory jsou důležité pro přesné vyhledávání.",
+           "c": "Identifikátory lze definovat, ale jejich správa je náročná.",
+          "d": "Identifikátory se používají i samostatně, pokud je to třeba."
+       }
+  },
+  {
+      "question": "Jaký je hlavní cíl procesu obsahové analýzy?",
+      "options": {
+         "a": "Identifikovat všechny klíčové pojmy v dokumentu.",
+         "b": "Vybrat vhodné deskriptory pro indexaci.",
+          "c": "Zjistit obsah dokumentu na základě relevantních prvků.",
+          "d": "Vytvořit selekční obraz dokumentu."
+      },
+      "correct_answer": "c",
+       "explanations": {
+          "a": "Identifikace pojmů následuje po obsahové analýze.",
+           "b": "Výběr deskriptorů je až třetí krok.",
+         "d": "Selekční obraz je výstupem celého procesu věcného zpracování, ne jen obsahové analýzy."
+      }
+  },
+  {
+      "question": "Jaký význam má kvalita obsahové analýzy pro proces indexace?",
+      "options": {
+         "a": "Nemá žádný vliv na kvalitu vyhledávání.",
+         "b": "Má zásadní vliv na výslednou kvalitu selekčního obrazu dokumentu.",
+          "c": "Ovlivňuje pouze výběr deskriptorů, ne úspěšnost vyhledávání.",
+          "d": "Je důležitá pouze pro určení hlavního tématu dokumentu."
+      },
+      "correct_answer": "b",
+     "explanations": {
+         "a": "Kvalitní obsahová analýza má zásadní vliv na vyhledávání.",
+          "c": "Ovlivňuje jak výběr deskriptorů, tak úspěšnost vyhledávání.",
+          "d": "Kvalitní obsahová analýza je důležitá pro všechna relevantní témata, ne jen hlavní."
+       }
+  },
+  {
+      "question": "Jaké prvky dokumentu se berou v úvahu při obsahové analýze?",
+      "options": {
+         "a": "Pouze název dokumentu.",
+          "b": "Název, obsah, úvod, závěr, anotace a další relevantní části textu.",
+          "c": "Pouze zvýrazněné části textu.",
+         "d": "Pouze rejstřík dokumentu."
+       },
+      "correct_answer": "b",
+      "explanations": {
+          "a": "Název je pouze jedním z prvků, je třeba zohlednit i další části.",
+          "c": "Zvýrazněné části jsou důležité, ale nejsou jedinými relevantními prvky.",
+          "d": "Rejstřík je jedním z prvků, ale je třeba zohlednit i další části textu."
+      }
+  },
+{
+      "question": "Co znamená 'úplnost indexace'?",
+      "options": {
+          "a": "Použití co nejmenšího počtu deskriptorů.",
+          "b": "Použití pouze hlavních deskriptorů.",
+          "c": "Zachycení všech relevantních témat a pojmů obsažených v dokumentu.",
+          "d": "Indexování pouze názvu dokumentu."
+      },
+      "correct_answer": "c",
+      "explanations": {
+         "a": "Úplnost neznamená minimalizaci deskriptorů, ale úplnost popisu.",
+          "b": "Úplnost zahrnuje hlavní i vedlejší relevantní témata.",
+          "d": "Indexace by měla zahrnovat všechny relevantní části textu."
+      }
+  },
+  {
+      "question": "Co je cílem 'specifičnosti indexace'?",
+     "options": {
+          "a": "Používat co nejvíce obecných deskriptorů.",
+           "b": "Používat co nejpřesnější deskriptory k vyjádření obsahu.",
+          "c": "Indexovat pouze hlavní téma dokumentu.",
+          "d": "Používat deskriptory z co nejvíce mikrotezaurů."
+       },
+      "correct_answer": "b",
+       "explanations": {
+          "a": "Specifičnost vyžaduje přesnost, ne obecnost.",
+          "c": "Specifičnost zahrnuje jak hlavní, tak vedlejší relevantní témata.",
+          "d": "Specifičnost nesouvisí s počtem mikrotezaurů, ale s přesností deskriptorů."
+       }
+  },
+  {
+       "question": "Kdy je vhodné použít obecnější (nadřazený) deskriptor místo specifičtějšího?",
+       "options": {
+         "a": "Vždy, když je k dispozici.",
+          "b": "Pokud dokument pojednává o obecném tématu a specifické otázky jsou okrajové.",
+          "c": "Pouze pokud je specifičtější deskriptor příliš dlouhý.",
+           "d": "Nikdy, vždy je nutné použít specifičtější deskriptor."
+       },
+       "correct_answer": "b",
+       "explanations": {
+          "a": "Vždy je třeba zvážit specifičnost, ne automaticky použít obecný deskriptor.",
+           "c": "Délka deskriptoru není důvodem pro výběr obecnějšího termínu.",
+          "d": "Použití obecnějšího deskriptoru je nutné, pokud neexistuje specifičtější nebo když je téma obecné."
+       }
+  },
+{
+      "question": "Jak se rozhoduje, zda indexovat dílčí témata a pojmy v dokumentu?",
+     "options": {
+         "a": "Vždy indexovat všechny dílčí témata.",
+          "b": "Indexovat dílčí témata, která jsou významná svým rozsahem a relevancí.",
+          "c": "Indexovat pouze dílčí témata uvedená v názvu dokumentu.",
+           "d": "Nikdy neindexovat dílčí témata, pouze hlavní téma."
+      },
+      "correct_answer": "b",
+       "explanations": {
+         "a": "Indexace všech dílčích témat by vedla k přetížení, je nutné vybrat relevantní.",
+          "c": "Důležité je zohlednit celý obsah dokumentu, nejen název.",
+           "d": "Dílčí témata se indexují, pokud jsou relevantní a významná."
+      }
+  },
+ {
+      "question": "Co znamená pravidlo o specifičnosti indexace?",
+     "options": {
+         "a": "Používat pouze obecné deskriptory.",
+          "b": "Používat co nejpřesnější deskriptory pro vyjádření obsahu dokumentu.",
+           "c": "Používat deskriptory z co největšího množství mikrotezaurů.",
+          "d": "Indexovat pouze hlavní témata dokumentu."
+      },
+      "correct_answer": "b",
+      "explanations": {
+          "a": "Specifičnost vyžaduje přesnost, ne obecnost.",
+          "c": "Počet mikrotezaurů není důležitý pro specifičnost indexace.",
+          "d": "Indexují se všechna relevantní témata, nejen hlavní."
+       }
+ },
+  {
+      "question": "Kdy se použije deskriptor 'dějiny'?",
+      "options": {
+          "a": "Pouze pro dokumenty o konkrétní historické události.",
+          "b": "Pouze pro dokumenty o obecných dějinách.",
+         "c": "Pro všechny dokumenty s historickým zpracováním problematiky.",
+          "d": "Pouze v kombinaci s deskriptorem místa."
+      },
+      "correct_answer": "c",
+       "explanations": {
+          "a": "Používá se i pro obecnější historická pojednání.",
+          "b": "Používá se i pro konkrétní historické události.",
+           "d": "Může se použít i bez deskriptoru místa."
+       }
+  },
+  {
+       "question": "Jaké tři typy deskriptorů vyjadřující časové hledisko se používají v ČTT?",
+      "options": {
+         "a": "Staletí, tisíciletí, historické události.",
+         "b": "Dějiny, staletí/tisíciletí, historické události.",
+          "c": "Současnost, minulost, budoucnost.",
+           "d": "Rok, měsíc, den."
+       },
+       "correct_answer": "b",
+      "explanations": {
+          "a": "Chybí obecný deskriptor dějiny.",
+          "c": "Tyto termíny jsou příliš obecné.",
+          "d": "Tyto termíny jsou příliš konkrétní."
+       }
+  },
+  {
+       "question": "Jak se indexují dokumenty o dějinách států?",
+      "options": {
+          "a": "Pouze deskriptorem 'dějiny'.",
+          "b": "Deskriptorem 'dějiny' a deskriptorem vyjadřujícím místo.",
+          "c": "Pouze deskriptorem vyjadřujícím místo.",
+          "d": "Deskriptorem 'dějiny' a časovým deskriptorem."
+       },
+       "correct_answer": "b",
+       "explanations": {
+           "a": "Je třeba zohlednit i hledisko místa.",
+          "c": "Je třeba zohlednit i hledisko dějin.",
+          "d": "Časové deskriptory se používají doplňkově, ne jako jediný způsob."
+       }
+  },
+  {
+      "question": "Jak se indexují 'světové dějiny' v ČTT?",
+     "options": {
+          "a": "Deskriptorem 'světové dějiny'.",
+          "b": "Deskriptorem 'dějiny' a výčtem všech kontinentů.",
+          "c": "Deskriptorem 'dějiny' a deskriptorem 'lidstvo'.",
+          "d": "Deskriptorem 'dějiny' a deskriptorem 'země'."
+      },
+      "correct_answer": "b",
+       "explanations": {
+          "a": "Tezaurus neobsahuje deskriptor 'světové dějiny'.",
+          "c": "Deskriptor 'lidstvo' je příliš obecný.",
+          "d": "Deskriptor 'země' je příliš obecný a nenahrazuje výčet kontinentů."
+      }
+  },
+{
+     "question": "Které z následujících deskriptorů jsou v ČTT 'prekoordinované'?",
+      "options": {
+          "a": "Dějiny, filozofie, církev.",
+           "b": "Dějiny filozofie, církevní dějiny, dějiny spásy, biblické dějiny, dějiny dogmatu.",
+          "c": "Bible, teologie, filozofie.",
+           "d": "Křesťanství, společnost, kultura."
+      },
+      "correct_answer": "b",
+       "explanations": {
+          "a": "Tyto deskriptory jsou obecné, ne prekoordinované.",
+          "c": "Tyto deskriptory jsou obecné obory, ne historické pojmy.",
+          "d": "Tyto deskriptory jsou vztažené pojmy, ne historické obory."
+      }
+  },
+   {
+      "question": "Jak se používá deskriptor 'křesťanství a společnost'?",
+      "options": {
+         "a": "Pro vztah mezi křesťanstvím a filozofii.",
+          "b": "Pro vyjádření vztahu křesťanství a určitého společenského fenoménu.",
+         "c": "Pro vyjádření vztahu mezi různými křesťanskými církvemi.",
+          "d": "Pro indexaci dokumentů o samotném křesťanství."
+      },
+      "correct_answer": "b",
+      "explanations": {
+         "a": "Pro vztah křesťanství a filozofie slouží deskriptor 'křesťanství a filozofie'.",
+           "c": "Vztah mezi církvemi vyjadřuje deskriptor 'interkonfesijní vztahy'.",
+          "d": "Deskriptor se používá pro vztah křesťanství a společnosti, ne pro samotné křesťanství."
+      }
+  },
+  {
+      "question": "Jak se používá deskriptor 'křesťanství a filozofie'?",
+      "options": {
+          "a": "Pro vyjádření vztahu mezi křesťanstvím a společností.",
+          "b": "Pro vyjádření vztahu křesťanství a filozofického směru.",
+         "c": "Pro indexaci dokumentů o samotném křesťanství.",
+          "d": "Pro indexaci dokumentů o filozofii."
+      },
+      "correct_answer": "b",
+       "explanations": {
+          "a": "Pro vztah křesťanství a společnosti slouží deskriptor 'křesťanství a společnost'.",
+           "c": "Deskriptor se používá pro vztah křesťanství a filozofie, ne pro samotné křesťanství.",
+          "d": "Deskriptor se používá pro vztah křesťanství a filozofie, ne pro samotnou filozofii."
+       }
+  },
+  {
+      "question": "K čemu slouží deskriptor 'interkonfesijní vztahy'?",
+     "options": {
+          "a": "K vyjádření vztahů mezi různými náboženstvími.",
+          "b": "K vyjádření vztahů mezi křesťanskými církvemi nebo konfesemi.",
+           "c": "K vyjádření vztahů mezi křesťanstvím a společností.",
+          "d": "K vyjádření vztahu mezi křesťanstvím a filozofii."
+      },
+      "correct_answer": "b",
+       "explanations": {
+          "a": "Pro vztahy mezi různými náboženstvími slouží deskriptor 'mezináboženské vztahy'.",
+           "c": "Pro vztah křesťanství a společnosti slouží deskriptor 'křesťanství a společnost'.",
+          "d": "Pro vztah křesťanství a filozofie slouží deskriptor 'křesťanství a filozofie'."
+      }
+  },
+ {
+      "question": "Jak je třeba indexovat 'bohoslužebné knihy'?",
+     "options": {
+         "a": "Samostatným deskriptorem 'bohoslužebné knihy'.",
+          "b": "Deskriptorem 'bohoslužebné knihy' v kombinaci s příslušnou církví.",
+          "c": "Deskriptorem 'bohoslužebné knihy' v kombinaci s deskriptorem 'liturgie'.",
+          "d": "Pouze identifikátorem."
+      },
+     "correct_answer": "b",
+      "explanations": {
+          "a": "Je třeba specifikovat církev, ke které bohoslužebná kniha patří.",
+           "c": "Deskriptor 'liturgie' se používá pro bohoslužby, ne pro knihy.",
+          "d": "Identifikátory se používají pro specifické vlastní jména, ne pro typ dokumentu."
+       }
+  },
+ {
+      "question": "Jak se indexují autorské antologie?",
+       "options": {
+          "a": "Pouze deskriptorem 'antologie'.",
+           "b": "Deskriptorem 'antologie' a identifikátorem autora.",
+         "c": "Deskriptorem 'antologie' a deskriptorem 'literatura'.",
+          "d": "Deskriptorem 'antologie' a deskriptorem 'sbírka'."
+       },
+      "correct_answer": "b",
+      "explanations": {
+         "a": "Je třeba uvést i autora antologie.",
+          "c": "Deskriptor 'literatura' je příliš obecný.",
+         "d": "Deskriptor 'sbírka' je příliš obecný."
+       }
+  },
+   {
+      "question": "Jak se indexují 'mýty' jako typ dokumentu?",
+     "options": {
+         "a": "Pouze deskriptorem 'mytologie'.",
+          "b": "Deskriptorem 'mýty (typ dokumentu)' a deskriptorem příslušného náboženství.",
+          "c": "Deskriptorem 'mýty (typ dokumentu)' a deskriptorem 'dějiny'.",
+          "d": "Deskriptorem 'mýty (typ dokumentu)' a deskriptorem 'literatura'."
+      },
+     "correct_answer": "b",
+       "explanations": {
+         "a": "Deskriptor 'mytologie' popisuje věcnou problematiku mýtu, ne typ dokumentu.",
+          "c": "Deskriptor 'dějiny' se nepoužívá pro formální hledisko.",
+           "d": "Deskriptor 'literatura' je příliš obecný."
+       }
+ },
+ {
+      "question": "Jak se indexují sbírky modliteb, kázání nebo básní?",
+      "options": {
+          "a": "Pouze deskriptorem 'sbírky'.",
+          "b": "Uvedenými deskriptory a specifikovány věcným deskriptorem.",
+          "c": "Uvedenými deskriptory bez další specifikace.",
+           "d": "Pouze deskriptorem 'spiritualita', 'homiletika', 'poezie'."
+      },
+      "correct_answer": "b",
+       "explanations": {
+           "a": "Je třeba specifikovat, zda se jedná o sbírku modliteb, kázání nebo básní.",
+          "c": "Je třeba věcně specifikovat obsah sbírky.",
+          "d": "Tyto deskriptory popisují věcnou problematiku, ale chybí informace o formě dokumentu."
+       }
+  },
+  {
+      "question": "Jak se indexují publikace pro děti?",
+       "options": {
+         "a": "Pouze deskriptorem 'publikace pro děti'.",
+          "b": "Deskriptorem 'publikace pro děti' v kombinaci s dalšími deskriptory.",
+          "c": "Pouze formálními deskriptory.",
+          "d": "Pouze věcnými deskriptory."
+      },
+      "correct_answer": "b",
+       "explanations": {
+          "a": "Je třeba použít i další deskriptory pro popis obsahu publikace.",
+         "c": "Pouze formální deskriptory nestačí pro popis obsahu publikace.",
+           "d": "Pouze věcné deskriptory nestačí pro popis formy publikace."
+       }
+  },
+  {
+      "question": "Kdy se formální deskriptor může použít i věcně?",
+     "options": {
+         "a": "Nikdy, formální deskriptory se vždy používají pouze formálně.",
+          "b": "Vždy, pokud se jedná o studii formálního hlediska.",
+          "c": "Pokud je to nezbytné a v kombinaci s pomocným deskriptorem 'studie'.",
+          "d": "Pokud dokument pojednává o konkrétní události."
+       },
+     "correct_answer": "c",
+     "explanations": {
+         "a": "Formální deskriptory lze použít i věcně, pokud je to třeba.",
+          "b": "Ne vždy je formální deskriptor vhodný pro věcný popis.",
+          "d": "Konkrétní události nemají přímý vztah k použití formálního deskriptoru věcně."
+      }
+  },
+  {
+      "question": "Jaké typy dokumentů se v katalogu knihovny UK-ETF věcně nezpracovávají?",
+      "options": {
+           "a": "Pouze beletrie.",
+         "b": "Kanonické a historické texty, klasická filozofická a teologická díla, krásná literatura.",
+         "c": "Všechny publikace vydané před rokem 1900.",
+         "d": "Pouze publikace pro děti."
+      },
+      "correct_answer": "b",
+       "explanations": {
+          "a": "Nezpracovávají se i další typy dokumentů.",
+           "c": "Nezpracovávají se všechna díla vydaná před rokem 1900, záleží na jejich charakteru.",
+          "d": "Nezpracovávají se i další typy dokumentů."
+      }
+  },
+ {
+      "question": "Co je to 'kandidát' v tezauru?",
+      "options": {
+          "a": "Synonymum k existujícímu deskriptoru.",
+          "b": "Termín navržený jako nový deskriptor v tezauru.",
+           "c": "Termín, který nelze indexovat.",
+          "d": "Termín sloužící k propojení mikrotezaurů."
+      },
+     "correct_answer": "b",
+      "explanations": {
+          "a": "Synonyma se řeší vztahem ekvivalence.",
+          "c": "Kandidáti jsou navrženi, aby se dali indexovat.",
+          "d": "Propojení mikrotezaurů zajišťuje vztah asociace."
+      }
+  },
+   {
+      "question": "Jak se označují kandidáti a poznámky v AIKS T-Series?",
+      "options": {
+          "a": "\\\\qkan, \\\\qpoz.",
+           "b": "\\\\xkan, \\\\xpoz.",
+          "c": "\\\\kan, \\\\poz.",
+          "d": "\\\\id, \\\\note."
+      },
+     "correct_answer": "a",
+       "explanations": {
+          "b": "\\\\xkan a \\\\xpoz se používají pro identifikátory, ne kandidáty a poznámky.",
+          "c": "Chybí 'q' před 'kan' a 'poz'.",
+          "d": "Tyto řetězce se nepoužívají pro kandidáty a poznámky."
+      }
+  },
+  {
+      "question": "Na jaké dvě skupiny se dělí texty z hlediska kanonických a historických textů?",
+       "options": {
+          "a": "Primární a sekundární dokumenty.",
+           "b": "Kanonické a mimokanonické texty.",
+          "c": "Posvátné a profánní texty.",
+          "d": "Staré a nové texty."
+      },
+      "correct_answer": "a",
+       "explanations": {
+          "b": "Kanonické a mimokanonické texty jsou podskupinou primárních dokumentů.",
+           "c": "Posvátné a profánní texty jsou jiná forma dělení textů.",
+          "d": "Staré a nové texty jsou příliš obecné dělení."
+      }
+  },
+  {
+       "question": "Co jsou to 'primární dokumenty'?",
+       "options": {
+         "a": "Studie pojednávající o originálních textech.",
+          "b": "Originální texty kanonických, posvátných a některých dalších knih.",
+          "c": "Texty překladů primárních dokumentů.",
+          "d": "Komentáře k primárním dokumentům."
+      },
+      "correct_answer": "b",
+      "explanations": {
+         "a": "Studie jsou sekundární dokumenty, ne primární.",
+     "c": "Texty překladů jsou sekundární dokumenty, ne primární.",
+     "d": "Studie jsou sekundární dokumenty, ne primární."
     }
+  }
   ]
 }
